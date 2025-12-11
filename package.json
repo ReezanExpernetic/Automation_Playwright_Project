@@ -4,13 +4,13 @@
   "description": "A project to test playwright functionalities",
   "main": "index.js",
   "scripts": {},
-  "author": "Ammaar Nizam",
+  "author": "Reezan Saleem",
   "license": "MIT",
   "dependencies": {
-    "playwright": "^1.57.0"
+    "playwright": "^1.56.1"
   },
   "devDependencies": {
-    "@playwright/test": "^1.57.0",
+    "@playwright/test": "^1.56.1",
     "@types/node": "^22.10.2",
     "allure-playwright": "^3.0.7"
   }
