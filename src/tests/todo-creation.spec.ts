@@ -31,7 +31,7 @@ test.describe("New Todo", () => {
     await checkNumberOfTodosInLocalStorage(page, 1);
   });
 
-  test("should append new items to the bottom of the list", { tag: ['@T1174'] }, async ({ page, browserName }) => {
+  test("should append new items to the bottom of the list", { tag: ['@T1179'] }, async ({ page, browserName }) => {
     test.skip(browserName === "firefox", "Not running on Firefox");
 
     await createDefaultTodos(page);
